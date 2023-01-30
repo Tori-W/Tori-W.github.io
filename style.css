@@ -1,0 +1,128 @@
+body {
+  background-color: #f5f1ed;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.portfolio_game > img {
+  object-fit: cover;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  aspect-ratio: 16/9;
+}
+
+/* Navigation Bar */
+nav > h1 {
+	margin: 0;
+	color: white;
+	font-family: 'Rowdies', cursive;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: right;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-collapse {
+	flex-grow: 0;
+}
+
+nav {
+  background-color: #FF7F11;
+  display: flex;
+  justify-content: space-between;
+}
+
+navbar-toggler {
+	background-color: black;
+}
+
+/* Main Page */
+main {
+  background-color: #f5f1ed;
+  margin: 0;
+}
+
+/* Page title*/
+.page_title {
+  background-color: #FF9634;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  margin: 0%;
+  margin-bottom: 1em;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+/* All games in portfolio */
+.portfolio_game {
+  background-color: white;
+  display: flex;
+  margin: 0%;
+  margin-bottom: 2em;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.portfolio_game + .alt_game {
+  background-color: white;
+ }
+
+.game_text {
+  background-color: #F38C9F;
+  color: white;
+  width: 100%;
+  text-align: left;
+  margin: 0%;
+  padding: 5%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+/* Game-Specific Styles */
+#MagUmb {
+  background-color: #FF9AAA;
+  color: #2E243C;
+}
+
+#PatZer {
+	background-color: #2E3842;
+	color: #D1E1F7;
+}
+
+#Magnet {
+	background-color: #FFD192;
+	color: black;
+}
+
+/* About Me Specifics */
+
+#about-me {
+  justify-content: center;
+}
+
+#AbMe {
+  background-color: white;
+  color: #8F3900;
+}
+
+#AbMe > h3 {
+  font-weight: bold;
+}

@@ -1,0 +1,35 @@
+header > h1 {
+	width: auto;
+}
+
+main {
+  width: 100vw;
+}
+
+.portfolio_game {
+  flex-direction: column;
+  border-radius: 0px;
+}
+
+.portfolio_game > img {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.game_text {
+  width: 100%;
+  border-radius: 0px;
+}
+
+#about-me > img {
+	object-fit: contain;
+	width: 100%
+}
+
+#about-me > .game-text {
+	width: 100%
+}
+
+#AbMe {
+  width: 100%;
+}

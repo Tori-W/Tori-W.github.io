@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Victoria Winn
+EMAIL: vmwinn@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Victoria Winn">
+  <meta name="description" content="Victoria Winn's portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
+   <!-- you would also link to Bootstrap here! -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/override.css">
+   <!-- For Boostrap (https://getbootstrap.com/docs/4.1/getting-started/introduction/) -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   <!-- you would link to an external stylesheet here! -->
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="desktop_style.css" media="screen and (min-width: 821px)">
+   <link rel="stylesheet" href="mobile_style.css" media="screen and (max-width: 820px)">
+   <!-- Google Fonts -->
+   <style>
+   @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies:wght@300&display=swap');
+   </style>
+  <title>Victoria Winn</title>
+</head>
+
+<body>
+
+  <header>
+	<nav class="navbar fixed-top navbar-expand-md navbar-light justify-content-between">
+	  <h1 class=".navbar-brand">Victoria Winn</h1>
+	  
+	  <!-- Button for collapsed navigation menu -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+	  
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+		  <li class="nav-item">
+		    <a class="nav-link" href="about.html">About Me</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="index.html">Portfolio</a>
+		  </li>
+		  <li class = "nav-item">
+			<a class="nav-link" href="https://drive.google.com/file/d/17cPc93mASxiTmGRJS7Sk1tloWKCeGyc9/view?usp=sharing" target="_blank">Resume</a>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
+  </header>
+  
+  <main>
+  
+    <h2 class="page_title">The Development of The Family Tree</h2>
+	
+	<article class="portfolio_game">
+	  <img src="https://ggj.s3.amazonaws.com/styles/game_sidebar__wide/featured_image/2023/02/740615/ggj_2023.png?itok=_VlCBALY&timestamp=1675647737" alt="Screenshot of The Family Tree">
+	  <div class="game_text" id="FamTree">
+	    <h3> The Family Tree </h3>
+		<h4> Solo Developer | February 3-5, 2023 </h4>
+		<h4> Unity | Team Size: Solo | Duration: 48 hours </h4>
+		<p> The Family Tree is a puzzle game created for the 2023 Global Game Jam under the theme "Roots". Read letters and listen to audio recordings to complete the family tree.</p>
+		<ul>
+			<li>Gameplay session times range from 45 minutes to 1 hour 30 min</li>
+			<li>A sentimental atmosphere created through sound, with voice acted recordings, lo-fi music, and audio feedback</li>
+			<li>Accessibility features include audio subtitles and easy-to-read transcriptions</li>
+		</ul>
+		<a href="https://saffrona.itch.io/the-family-tree" target="_blank">Itch.io (opens in new tab)</a>
+	  </div>
+	</article>
+	
+	<article class="portfolio_case_study" id="FamTreePort">
+		<div>
+			<h3> Putting the Pieces Together for a Logic Puzzle </h3>
+			<h4> Warning: Spoilers Ahead! </h4>
+			<p> The Family Tree is essentially one giant logic puzzle. You are given an empty family tree (aside from yourself, the player), 
+			and you must complete the family tree with everyone's first names. To know which name goes where, you need to use the clues given from the audio recordings and written letters.
+			This article will go over the step-by-step process I used to create this logic puzzle. The tools used in these steps are:</p>
+			<ul>
+				<li>Google Jamboard</li>
+				<li>Google Docs</li>
+			</ul>
+			<h4> Step 1: Create the solution </h4>
+			<p>In order to create the clues for a logic puzzle, you need to know the end result first. I started with a virtual whiteboard where I placed down a random number of sticky notes
+			(I chose 20). Then, I connected the sticky notes together like you would for a family tree. At this point, each sticky note represented a single person. I then decided on a birth
+			year for each person based off of their generation, with the latest generation having been born in the 90s/early 2000s and working backwards. Having everyone's birth years helped
+			me understand their relationship to one another, and it helped me decide how they might pass down information for a clue (through a letter vs an mp3 recording). Finally, I placed
+			everyone's genders and birth years into a character name generator. </p>
+		</div>
+		<img src="https://lh3.googleusercontent.com/8bWFpuvwM2ZuyUSidzr8UgJQvFbMVSrjzOwcjy21H5Ql7X2SJZon4VyWE9vQmjMOmxjhHeao7XSjZw_652PYQWTjHytAo_aqTwHR8ST-QvqZdYl_dYJ_Z-CPOh8kxgVezGl-O-6leQ=w2400?source=screenshot.guru" alt="The completed family tree and their birth years, created with digital sticky notes and hand-drawn lines"> </img>
+		<div>
+			<h4> Step 2: Writing the Clues </h4>
+			<p>When creating a logic puzzle, it's important to quickly get all of the clues out right away. Typically, every clue holds some importance, and the puzzle can't be solved without every
+			clue available. And so, the next step was to create the first iteration of the clues. To start this process, I decided that each character would speak or write one clue. I tried to mix
+			up whether the clue helped the player learn about the character giving it, or whether the clue helped the player learn about a different character. These clues were written very quickly,
+			and some were even incomplete (I used "sdlkfjdskf" as a placeholder for a "generic love poem"). At this point, the main goal was to create something rapidly in order to get it in front
+			of playtesters as soon as possible.</p>
+			<h4> Step 3: Playtesting! </h4>
+			<p>By the time I got to playtesting the clues, I hadn't even touched a game engine yet! The plan was to lay these clues out on paper (or in this case, a spreadsheet) and have players
+			test the clues out from the textual information alone. I had 2 playtesters go through the puzzle together. Having 2 players allowed them to bounce ideas off of each other,
+			and get them talking out loud. They each streamed their perspective, so I could follow along with what they were looking at. This paper prototype playtesting was very, very helpful, 
+			and it enabled me to figure out which clues were actually useless (I had 1 that gave 0 information, oops), which were too vague, or if there was a logical hole somewhere. It also
+			helped me find points that caused unnecessary confusion (one of the character names was gender-neutral and could've been a nickname of another character,
+			so players had a difficult time placing them in the tree).</p>
+		</div>
+		<img src="https://lh3.googleusercontent.com/6csWbWE0xIf4AfcSXFzc3ZbZLqXSgPIr1c7lstsYfVwO-wSVH3X9OYtbvCZ8SL7EpgZZ-AtOIWVade_K4_i7mqi9Gf1wEZn7e88KSISj3r9boSV3FrBbKTEYNSwgqN6eHjlqZH0EMQ=w2400" alt="A table of clues given to playtesters. The clues are divided into 3 categories: letters, cassette tape recordings, and mp3 recordings"></img>
+		<div>
+			<h4>Takeaways</h4>
+			<p>Due to the limited time nature of the game jam (and the length needed to solve the puzzle), unfortunately only 1 playtest was conducted before the game was released. Having 1 more playtest would have
+			helped to iron out the last edits, but overall I learned a lot from this project. Here are my main takeaways:</p>
+			<ul>
+				<li>Paper prototypes for these logic puzzles are essential. They're quick and easy to put together, and they can prevent a lot of wasted time and effort on poor clues.</li>
+				<li>Clear organization and formatting for the clues can help your playtesters spend more time focused on the puzzle rather than how to read the clue.</li>
+				<li>Write down what information your clue is meant to give. See if players actually get that information from it.</li>
+				<li>Double-check if a clue is used in conjunction with another clue. Sometimes, you can edit a clue and ruin another clue because it was dependent on the former.</li>
+				<li>Having multiple playtesters allows for a natural conversation about their thought process, and helps prevent a single playtester from getting stuck.</li>
+			</ul>
+		</div>
+		
+		
+	</article>
+	
+	
+
+  </main>
+  
+</body>
+</html>

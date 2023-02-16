@@ -24,12 +24,20 @@ nav > h1 {
 	margin: 0;
 	color: white;
 	font-family: 'Rowdies', cursive;
+	text-shadow: -1px 1px 2px #753D00,
+				1px 1px 2px #753D00,
+				1px -1px 0 #753D00,
+				-1px -1px 0 #753D00;
 }
 
 .navbar-light .navbar-nav .nav-link {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	text-align: right;
+	text-shadow: -1px 1px 2px #753D00,
+				1px 1px 2px #753D00,
+				1px -1px 0 #753D00,
+				-1px -1px 0 #753D00;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
@@ -52,6 +60,11 @@ navbar-toggler {
 	background-color: black;
 }
 
+.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #753D00;
+	text-shadow: none;
+}
+
 /* Main Page */
 main {
   background-color: #f5f1ed;
@@ -69,6 +82,11 @@ main {
   margin-bottom: 1em;
   font-weight: bold;
   border-radius: 50px;
+  text-shadow: -1px 1px 2px #753D00,
+				1px 1px 2px #753D00,
+				1px -1px 0 #753D00,
+				-1px -1px 0 #753D00;
+  /*text-shadow: 3px 3px #753D00; */
 }
 
 /* All games in portfolio */
@@ -96,10 +114,40 @@ main {
   border-bottom-right-radius: 50px;
 }
 
+.portfolio_case_study {
+	text-align: justify;
+	border-radius: 50px;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	text-align: center;
+}
+
+.portfolio_case_study > div {
+	padding-left: 13%;
+	padding-right: 13%;
+}
+
+.portfolio_case_study > div > p{
+	text-align: justify;
+}
+
+.portfolio_case_study > div > ul {
+	text-align: left;
+}
+
+.portfolio_case_study > img {
+	padding-bottom: 2%;
+	max-width: 50vw;
+}
+
 /* Game-Specific Styles */
 #MagUmb {
   background-color: #FF9AAA;
   color: #2E243C;
+}
+
+#MagUmb > a{
+  color: #415A47;
 }
 
 #PatZer {
@@ -112,10 +160,33 @@ main {
 	color: black;
 }
 
+#Magnet > a {
+	color: #0000FF;
+}
+
+#FamTree {
+	background-color: #753914;
+	color: #F4F7BE;
+}
+
+#FamTree > a {
+	color: white;
+}
+
+#FamTreePort {
+	background-color: #E6D6C5;
+	color: black;
+}
+
 /* About Me Specifics */
+#portfolio_subtitle {
+	font-weight: normal;
+	color: black;
+	text-shadow: none;
+}
 
 #about-me {
-  justify-content: center;
+  align-items: center;
 }
 
 #AbMe {
@@ -125,4 +196,21 @@ main {
 
 #AbMe > h3 {
   font-weight: bold;
+}
+
+#MePhoto {
+  height: 25vw;
+  object-fit: contain;
+}
+
+#MeDoodle {
+  height: 25vw;
+  object-fit: contain;
+}
+
+.me_photos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }

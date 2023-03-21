@@ -141,6 +141,11 @@ main {
 }
 
 /* Game-Specific Styles */
+#ProdNotFound {
+  background-color: #0D0C09;
+  color: #F4F4F4;
+}
+
 #MagUmb {
   background-color: #FF9AAA;
   color: #2E243C;

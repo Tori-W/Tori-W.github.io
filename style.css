@@ -140,6 +140,12 @@ main {
 	max-width: 50vw;
 }
 
+.portfolio_page_link {
+	border-radius: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
 /* Game-Specific Styles */
 #ProdNotFound {
   background-color: #0D0C09;
@@ -149,10 +155,6 @@ main {
 #MagUmb {
   background-color: #FF9AAA;
   color: #2E243C;
-}
-
-#MagUmb > a{
-  color: #415A47;
 }
 
 #PatZer {
@@ -165,22 +167,34 @@ main {
 	color: black;
 }
 
-#Magnet > a {
-	color: #0000FF;
-}
-
 #FamTree {
 	background-color: #753914;
 	color: #F4F7BE;
 }
 
-#FamTree > a {
-	color: white;
-}
-
 #FamTreePort {
 	background-color: #E6D6C5;
 	color: black;
+}
+
+.FamTreeLink {
+	background-color: #F4F7BE;
+	color: #753914;
+}
+
+.ProdNotFoundLink {
+  background-color: #F4F4F4;
+  color: #0D0C09;
+}
+
+.MagUmbLink {
+  background-color: #2E243C;
+  color: #FF9AAA;
+}
+
+.MagnetLink {
+	background-color: black;
+	color: #FFD192;
 }
 
 /* About Me Specifics */

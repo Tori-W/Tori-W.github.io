@@ -149,7 +149,7 @@ main {
 /* Game-Specific Styles */
 #KoT {
 	background-color: #192E66;
-	color: white;
+	color: #FEFFD3;
 }
 
 #ProdNotFound {
@@ -183,7 +183,7 @@ main {
 }
 
 .KoTLink {
-	background-color: white;
+	background-color: #FEFFD3;
 	color: #192E66;
 }
 

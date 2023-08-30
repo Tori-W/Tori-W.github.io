@@ -147,6 +147,11 @@ main {
 }
 
 /* Game-Specific Styles */
+#Enkore {
+	background-color: #270627;
+	color: #E6E6FF;
+}
+
 #KoT {
 	background-color: #192E66;
 	color: #FEFFD3;
@@ -180,6 +185,11 @@ main {
 #FamTreePort {
 	background-color: #E6D6C5;
 	color: black;
+}
+
+.EnkoreLink {
+	background-color: #E6E6FF;	
+	color: #270627;
 }
 
 .KoTLink {

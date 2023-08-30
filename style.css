@@ -147,6 +147,11 @@ main {
 }
 
 /* Game-Specific Styles */
+#KoT {
+	background-color: #333C9B;
+	color: white;
+}
+
 #ProdNotFound {
   background-color: #0D0C09;
   color: #F4F4F4;
@@ -175,6 +180,11 @@ main {
 #FamTreePort {
 	background-color: #E6D6C5;
 	color: black;
+}
+
+.KoTLink {
+	background-color: white;
+	color: #333C9B;
 }
 
 .FamTreeLink {

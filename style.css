@@ -147,6 +147,11 @@ main {
 }
 
 /* Game-Specific Styles */
+#Reincarnation {
+	background-color: #EBF4FF;
+	color: #423E37;
+}
+
 #Enkore {
 	background-color: #270627;
 	color: #E6E6FF;
@@ -185,6 +190,11 @@ main {
 #FamTreePort {
 	background-color: #E6D6C5;
 	color: black;
+}
+
+.ReincarnationLink {
+	background-color: #423E37;
+	color: #EBF4FF;
 }
 
 .EnkoreLink {

@@ -147,6 +147,11 @@ main {
 }
 
 /* Game-Specific Styles */
+#Valorant {
+	background-color: #111823;
+	color: #EBE7E2;
+}
+
 #Reincarnation {
 	background-color: #EBF4FF;
 	color: #423E37;
@@ -190,6 +195,11 @@ main {
 #FamTreePort {
 	background-color: #E6D6C5;
 	color: black;
+}
+
+.ValorantLink {
+	color: #111823;
+	background-color: #EBE7E2;
 }
 
 .ReincarnationLink {
